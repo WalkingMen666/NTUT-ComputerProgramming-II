@@ -2,8 +2,7 @@
 #include <math.h>
 
 int main(){
-    float a = 0, b = 0, c = 0;
-    float realRoot = 0, virtualRoot = 0;
+    float a = 0, b = 0, c = 0, realRoot = 0, virtualRoot = 0;
 
     scanf("%f %f %f", &a, &b, &c);
 
