@@ -69,7 +69,7 @@ int main(){
                         int yourAns = yourSol(player);
                         if(myAns != yourAns){
                             for(int i = 0; i < 5; i++) printf("%d", player[i]);
-                            printf("\nbit: %d\ngen: %d\n==========\n", myAns, yourAns);
+                            printf("\nMySol: %d\nYourSol: %d\n==========\n", myAns, yourAns);
                             error++;
                         }
                     }
