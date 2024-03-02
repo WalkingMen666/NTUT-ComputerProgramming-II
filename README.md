@@ -19,10 +19,3 @@
    - **[Q7. 籃球對抗](./HomeWork/007/q007.md)**
 
 #
-
-**以上說明及程式皆由本人 `彭瑜祐` 撰寫製作，你可以透過以下方式找到我**
-
-- [e-mail](mailto:breezekaka66@gmail.com)
-- [Discord](https://discord.com/users/723871702228140053)
-- [IG](https://www.instagram.com/breeze._.0816/)
-- [FaceBook](https://www.facebook.com/profile.php?id=100081836611463)
