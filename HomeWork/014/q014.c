@@ -24,7 +24,7 @@ void plus(char num1[200], char num2[200], char ans[201]){
     if(carry == 1) strcat(ans, "1");
 }
 
-void fuckYourLinuxSystem_strrev(char input[1000]){
+void my_strrev(char input[1000]){
     char temp[1000] = {0}, tempAns[2] = {'0', '\0'};
     for(int i = strlen(input); i > -1; i--){
         tempAns[0] = input[i];
@@ -108,9 +108,9 @@ void multiple(char num1[200], char num2[200], char ans[201]){
         }
         index++;
         strcpy(temp2, ans);
-        fuckYourLinuxSystem_strrev(tempAns);
+        my_strrev(tempAns);
         plus(tempAns, temp2, ansBuffer);
-        fuckYourLinuxSystem_strrev(ansBuffer);
+        my_strrev(ansBuffer);
         strcpy(ans, ansBuffer);
         carry = 0;
     }
@@ -141,18 +141,18 @@ int main(){
         minus(num1, num2, ans1);
         plus(num1, num2, ans2);
         multiple(num1, num2, ans3);
-        fuckYourLinuxSystem_strrev(ans3);
+        my_strrev(ans3);
         strcat(ans3, "-");
-        fuckYourLinuxSystem_strrev(ans3);
+        my_strrev(ans3);
     }
     else if(negative1 == 1 && negative2 == 0){
         minus(num2, num1, ans1);
         plus(num1, num2, ans2);
         strcat(ans2, "-");
         multiple(num1, num2, ans3);
-        fuckYourLinuxSystem_strrev(ans3);
+        my_strrev(ans3);
         strcat(ans3, "-");
-        fuckYourLinuxSystem_strrev(ans3);
+        my_strrev(ans3);
     }
     else{
         plus(num1, num2, ans1);
@@ -160,8 +160,8 @@ int main(){
         minus(num2, num1, ans2);
         multiple(num1, num2, ans3);
     }
-    fuckYourLinuxSystem_strrev(ans1);
-    fuckYourLinuxSystem_strrev(ans2);
+    my_strrev(ans1);
+    my_strrev(ans2);
 
     if(strpbrk(ans1, "123456789") == NULL) printf("0\n");
     else printf("%s\n", ans1);
