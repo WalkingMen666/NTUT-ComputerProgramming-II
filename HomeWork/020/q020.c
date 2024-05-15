@@ -124,7 +124,7 @@ void sol4(char *article){
     
     // 取得在article中出現的空格的指針
     char *token = strtok(article, " ");
-
+//1234\05678\05757
     // 如果此單字已經出現過，將它對應的出現次數+1，否則將它新增到陣列中
     do{
         for(index = 0; index < count; index++){
