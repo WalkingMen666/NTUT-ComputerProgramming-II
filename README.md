@@ -46,5 +46,9 @@
     - **[Q26. 邏輯電路圖](./HomeWork/026/q026.md)**
     - **[Q27. 工作排程](./HomeWork/027/q027.md)**
     - **[Q28. 專案時程](./HomeWork/028/q028.md)**
+11. **Week 14**
+    - **[Q29. Stack(堆疊)](./HomeWork/029/q029.md)**
+    - **[Q30. Queue(佇列)](./HomeWork/030/q030.md)**
+    - **[Q31. LinkList 多項式運算](./HomeWork/031/q031.md)**
 
 #
