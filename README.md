@@ -50,5 +50,11 @@
     - **[Q29. Stack(堆疊)](./HomeWork/029/q029.md)**
     - **[Q30. Queue(佇列)](./HomeWork/030/q030.md)**
     - **[Q31. LinkList 多項式運算](./HomeWork/031/q031.md)**
+    - **[Q32. Double Link List(雙向鏈結串列)](./HomeWork/032/q032.md)**
+12. **Week 15**
+    - **[Q33. 城市旅遊](./HomeWork/033/q033.md)**
+    - **[Q34. 創建唯一二元樹](./HomeWork/034/q034.md)**
+    - **[Q35. 開發專案](./HomeWork/035/q035.md)**
+    - **[Q36. 工作排程](./HomeWork/036/q036.md)**
 
 #
