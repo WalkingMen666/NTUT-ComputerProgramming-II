@@ -194,7 +194,6 @@ int main() {
     }
 
     // 清理所有剩餘的節點
-    // empty(&head, &tail);
     free(head);
     free(tail);
 
